@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bricolage+Grotesque&family=Croissant+One&family=Gabarito&family=Geologica:wght@500&family=Gloock&family=Lato:ital,wght@0,400;1,400;1,900&family=Mooli&family=Noto+Sans:ital,wght@1,300;1,400&family=PT+Serif:ital,wght@1,700&family=Poppins&family=Shantell+Sans:wght@300;400&family=Sigmar&family=Tilt+Warp&family=Ubuntu:ital@1&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+h1 img {
+    width: 80px;
+    margin-right: 7px;
+}
+
+button {
+    background-color: rgb(112, 81, 224);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+#notes-container .input {
+    margin-top: 20px;
+    width: 450px;
+    min-height: 150px;
+    background-color: white;
+    position: relative;
+    outline: 0;
+    padding: 20px;
+    color: black;
+    border-radius: 7px;
+
+}
+.input img{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
